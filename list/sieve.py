@@ -17,3 +17,5 @@ def SieveList():
     while 2 <= p < 5000:
         if prime[p]: print(p)
         p = p + 1
+
+SieveList()
